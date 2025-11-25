@@ -135,10 +135,12 @@
   const todayKey = () => new Date().toISOString().slice(0,10);
 
   const TASKS = [
-    { id:'pushups', label:'Push-ups', unit:'reps', target:100, completed: false, style:'dim' },
-    { id:'situps',  label:'Sit-ups',  unit:'reps', target:100, completed: false, style:'dim' },
-    { id:'squats',  label:'Squats',  unit:'reps', target:100, completed: false, style:'dim' },
-    { id:'running', label:'Running', unit:'km', target:5,   completed: false, style:'highlight' },
+    { id:'Arms', label:'Arms', unit:'reps', completed: false, style:'dim' },
+    { id:'Legs',  label:'Legs',  unit:'reps', completed: false, style:'dim' },
+    { id:'Chest',  label:'Chest',  unit:'reps', completed: false, style:'dim' },
+    { id:'Back',  label:'Back',  unit:'reps', completed: false, style:'dim' },
+    { id:'Cardio', label:'Cardio', unit:'reps', completed: false, style:'dim' },
+    { id:'Pull-Ups', label:'Pull-Ups', unit:'reps', completed: false, style:'highlight' },
   ];
 
   function load(){
